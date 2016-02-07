@@ -24,7 +24,7 @@
 # To get these data from the US DOJ, FBI UCR (UCRDATATOOL.gov), we
 # have to search for one agency at a time if we want all years and all
 # crime catagories. This would be very tedious to do manually for each
-# agancy in each state. So we will automate this. But the web data query
+# agency in each state. So we will automate this. But the web data query
 # tool requires a multi-step process using forms, requiring cookies to
 # track progress through the process. So, we will need to use cookies. 
 # RCurl supports cookies, so this is not a problem. We will also need
