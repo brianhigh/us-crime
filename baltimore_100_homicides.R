@@ -1,4 +1,6 @@
-# Get 100 recent homicide victims as HTMLfrom Baltimore Sun's website
+# Get 100 recent homicide victims as HTML from Baltimore Sun's website
+# and extract the data from HTML into a dataframe using the rvest package.
+
 library(rvest)
 url <- "http://data.baltimoresun.com/news/police/homicides/recenthundred.php"
 parsedHTML <- read_html(url)
